@@ -13,7 +13,7 @@ from .geometry import (
     split_connected_components,
 )
 from .size import SizeQuantileCalibrator
-from .types import AttributeRules, MaskPathInput, ObjectMaskInput, PathLike, Proposition
+from .types import AttributeRules, MaskPathInput, ObjectMaskInput, PathLike
 
 
 def extract_object_attributes(
@@ -48,19 +48,19 @@ def extract_object_attributes(
         active_rules,
     )
 
-    propositions: list[Proposition] = [
-        [object_name, "location", location_label],
-        [object_name, "size", size_label],
-        [object_name, "shape", shape_label],
-        [object_name, "orientation", orientation_label],
-        [object_name, "boundary", boundary_label],
-    ]
+    attributes = {
+        "location": location_label,
+        "size": size_label,
+        "shape": shape_label,
+        "orientation": orientation_label,
+        "boundary": boundary_label,
+    }
 
     result: dict[str, Any] = {
         "object": object_name,
         "instance_index": instance_index,
         "measurements": measurements.to_dict(),
-        "propositions": propositions,
+        "attributes": attributes,
     }
     if image_path is not None:
         result["image_path"] = image_path

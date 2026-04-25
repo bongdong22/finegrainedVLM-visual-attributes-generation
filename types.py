@@ -8,7 +8,6 @@ import numpy as np
 
 PathLike = str | Path
 MaskPathInput = PathLike | tuple[PathLike, str]
-Proposition = list[str]
 
 
 @dataclass(slots=True)

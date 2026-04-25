@@ -40,6 +40,7 @@ from .extractor import (
     extract_image_attributes_from_paths,
     extract_object_attributes,
 )
+from .batch import run_folder_extraction
 from .size import SizeQuantileCalibrator
 from .types import AttributeRules, ObjectMaskInput
 
@@ -51,4 +52,5 @@ __all__ = [
     "extract_image_attributes",
     "extract_image_attributes_from_paths",
     "extract_object_attributes",
+    "run_folder_extraction",
 ]
