@@ -1,0 +1,31 @@
+{
+  "image_path": "/home/bongdong2/bongdong2_workspace/fine-grained-vlm/visual_attributes_generation/staging/udiat_tumor/images/000049.png",
+  "image_relative_path": "000049.png",
+  "num_objects": 1,
+  "objects": [
+    {
+      "object": "Tumor",
+      "instance_index": 0,
+      "measurements": {
+        "centroid": [
+          287.8200364968295,
+          225.55154848958264
+        ],
+        "area_ratio": 0.34554073670840135,
+        "aspect_ratio": 1.4397163120567376,
+        "circularity": 0.6078370677839202,
+        "solidity": 0.9156323814904526,
+        "orientation_angle": 4.970389540839619
+      },
+      "attributes": {
+        "location": "center",
+        "size": "large",
+        "shape": "oval",
+        "orientation": "horizontal",
+        "boundary": "mildly-irregular"
+      },
+      "image_path": "/home/bongdong2/bongdong2_workspace/fine-grained-vlm/visual_attributes_generation/staging/udiat_tumor/images/000049.png",
+      "mask_path": "/home/bongdong2/bongdong2_workspace/fine-grained-vlm/visual_attributes_generation/staging/udiat_tumor/masks/000049.png"
+    }
+  ]
+}
