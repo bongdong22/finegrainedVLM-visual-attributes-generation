@@ -1,0 +1,2121 @@
+[
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000001.png",
+    "mask_path": "Benign_mask/000001.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000002.png",
+    "mask_path": "Benign_mask/000002.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000003.png",
+    "mask_path": "Benign_mask/000003.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000004.png",
+    "mask_path": "Benign_mask/000004.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "round",
+      "orientation": "oblique",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000005.png",
+    "mask_path": "Benign_mask/000005.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000006.png",
+    "mask_path": "Benign_mask/000006.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000007.png",
+    "mask_path": "Benign_mask/000007.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000008.png",
+    "mask_path": "Benign_mask/000008.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "middle-left",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000009.png",
+    "mask_path": "Benign_mask/000009.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000010.png",
+    "mask_path": "Benign_mask/000010.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000011.png",
+    "mask_path": "Benign_mask/000011.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000012.png",
+    "mask_path": "Benign_mask/000012.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000013.png",
+    "mask_path": "Benign_mask/000013.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000014.png",
+    "mask_path": "Benign_mask/000014.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "middle-right",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000015.png",
+    "mask_path": "Benign_mask/000015.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000016.png",
+    "mask_path": "Benign_mask/000016.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000017.png",
+    "mask_path": "Benign_mask/000017.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000018.png",
+    "mask_path": "Malignant_mask/000018.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000019.png",
+    "mask_path": "Benign_mask/000019.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000020.png",
+    "mask_path": "Benign_mask/000020.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000021.png",
+    "mask_path": "Benign_mask/000021.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000022.png",
+    "mask_path": "Benign_mask/000022.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000023.png",
+    "mask_path": "Malignant_mask/000023.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000024.png",
+    "mask_path": "Malignant_mask/000024.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "irregular",
+      "orientation": "vertical",
+      "boundary": "irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000025.png",
+    "mask_path": "Malignant_mask/000025.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000026.png",
+    "mask_path": "Benign_mask/000026.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "vertical",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000027.png",
+    "mask_path": "Malignant_mask/000027.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000028.png",
+    "mask_path": "Malignant_mask/000028.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000029.png",
+    "mask_path": "Malignant_mask/000029.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000030.png",
+    "mask_path": "Malignant_mask/000030.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000031.png",
+    "mask_path": "Malignant_mask/000031.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-left",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000032.png",
+    "mask_path": "Benign_mask/000032.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000033.png",
+    "mask_path": "Benign_mask/000033.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000034.png",
+    "mask_path": "Benign_mask/000034.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "small",
+      "shape": "round",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000035.png",
+    "mask_path": "Benign_mask/000035.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000036.png",
+    "mask_path": "Benign_mask/000036.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "round",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000037.png",
+    "mask_path": "Benign_mask/000037.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000038.png",
+    "mask_path": "Benign_mask/000038.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "irregular",
+      "orientation": "horizontal",
+      "boundary": "irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000039.png",
+    "mask_path": "Benign_mask/000039.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-left",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000040.png",
+    "mask_path": "Benign_mask/000040.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000041.png",
+    "mask_path": "Malignant_mask/000041.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000042.png",
+    "mask_path": "Benign_mask/000042.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000043.png",
+    "mask_path": "Malignant_mask/000043.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000044.png",
+    "mask_path": "Malignant_mask/000044.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000045.png",
+    "mask_path": "Malignant_mask/000045.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000046.png",
+    "mask_path": "Malignant_mask/000046.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000047.png",
+    "mask_path": "Malignant_mask/000047.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "round",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000048.png",
+    "mask_path": "Malignant_mask/000048.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000049.png",
+    "mask_path": "Malignant_mask/000049.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000050.png",
+    "mask_path": "Malignant_mask/000050.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000051.png",
+    "mask_path": "Benign_mask/000051.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000052.png",
+    "mask_path": "Benign_mask/000052.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000053.png",
+    "mask_path": "Malignant_mask/000053.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "round",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000054.png",
+    "mask_path": "Malignant_mask/000054.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000055.png",
+    "mask_path": "Malignant_mask/000055.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000056.png",
+    "mask_path": "Benign_mask/000056.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000057.png",
+    "mask_path": "Malignant_mask/000057.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000058.png",
+    "mask_path": "Benign_mask/000058.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000059.png",
+    "mask_path": "Benign_mask/000059.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000060.png",
+    "mask_path": "Benign_mask/000060.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000061.png",
+    "mask_path": "Benign_mask/000061.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000062.png",
+    "mask_path": "Benign_mask/000062.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000063.png",
+    "mask_path": "Benign_mask/000063.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "small",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000064.png",
+    "mask_path": "Benign_mask/000064.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000065.png",
+    "mask_path": "Benign_mask/000065.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000066.png",
+    "mask_path": "Benign_mask/000066.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000067.png",
+    "mask_path": "Benign_mask/000067.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "irregular",
+      "orientation": "horizontal",
+      "boundary": "irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000068.png",
+    "mask_path": "Benign_mask/000068.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "medium",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000069.png",
+    "mask_path": "Benign_mask/000069.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000070.png",
+    "mask_path": "Benign_mask/000070.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000071.png",
+    "mask_path": "Benign_mask/000071.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000072.png",
+    "mask_path": "Benign_mask/000072.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000073.png",
+    "mask_path": "Benign_mask/000073.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000074.png",
+    "mask_path": "Benign_mask/000074.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000075.png",
+    "mask_path": "Benign_mask/000075.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000076.png",
+    "mask_path": "Benign_mask/000076.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000077.png",
+    "mask_path": "Benign_mask/000077.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000078.png",
+    "mask_path": "Benign_mask/000078.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000079.png",
+    "mask_path": "Benign_mask/000079.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000080.png",
+    "mask_path": "Benign_mask/000080.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000081.png",
+    "mask_path": "Benign_mask/000081.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000082.png",
+    "mask_path": "Benign_mask/000082.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000083.png",
+    "mask_path": "Benign_mask/000083.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000084.png",
+    "mask_path": "Benign_mask/000084.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000085.png",
+    "mask_path": "Benign_mask/000085.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000086.png",
+    "mask_path": "Benign_mask/000086.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "irregular",
+      "orientation": "horizontal",
+      "boundary": "irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000087.png",
+    "mask_path": "Benign_mask/000087.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000088.png",
+    "mask_path": "Benign_mask/000088.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000089.png",
+    "mask_path": "Benign_mask/000089.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000090.png",
+    "mask_path": "Benign_mask/000090.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000091.png",
+    "mask_path": "Benign_mask/000091.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-left",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000092.png",
+    "mask_path": "Benign_mask/000092.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000093.png",
+    "mask_path": "Benign_mask/000093.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000094.png",
+    "mask_path": "Benign_mask/000094.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "middle-right",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000095.png",
+    "mask_path": "Benign_mask/000095.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000096.png",
+    "mask_path": "Benign_mask/000096.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000097.png",
+    "mask_path": "Benign_mask/000097.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "round",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000098.png",
+    "mask_path": "Benign_mask/000098.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000099.png",
+    "mask_path": "Benign_mask/000099.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-right",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000100.png",
+    "mask_path": "Benign_mask/000100.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "middle-left",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000101.png",
+    "mask_path": "Benign_mask/000101.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000102.png",
+    "mask_path": "Benign_mask/000102.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "small",
+      "shape": "round",
+      "orientation": "oblique",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000103.png",
+    "mask_path": "Benign_mask/000103.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000104.png",
+    "mask_path": "Benign_mask/000104.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000105.png",
+    "mask_path": "Benign_mask/000105.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000106.png",
+    "mask_path": "Benign_mask/000106.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "middle-left",
+      "size": "medium",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000107.png",
+    "mask_path": "Benign_mask/000107.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000108.png",
+    "mask_path": "Benign_mask/000108.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000109.png",
+    "mask_path": "Benign_mask/000109.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-right",
+      "size": "small",
+      "shape": "round",
+      "orientation": "oblique",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000110.png",
+    "mask_path": "Benign_mask/000110.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000111.png",
+    "mask_path": "Benign_mask/000111.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "round",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000112.png",
+    "mask_path": "Benign_mask/000112.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000113.png",
+    "mask_path": "Benign_mask/000113.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "round",
+      "orientation": "oblique",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000114.png",
+    "mask_path": "Benign_mask/000114.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000115.png",
+    "mask_path": "Benign_mask/000115.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-right",
+      "size": "small",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000116.png",
+    "mask_path": "Benign_mask/000116.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000117.png",
+    "mask_path": "Benign_mask/000117.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000118.png",
+    "mask_path": "Benign_mask/000118.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000119.png",
+    "mask_path": "Benign_mask/000119.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000120.png",
+    "mask_path": "Benign_mask/000120.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-left",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000121.png",
+    "mask_path": "Benign_mask/000121.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000122.png",
+    "mask_path": "Benign_mask/000122.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000123.png",
+    "mask_path": "Benign_mask/000123.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "small",
+      "shape": "round",
+      "orientation": "oblique",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000124.png",
+    "mask_path": "Benign_mask/000124.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000125.png",
+    "mask_path": "Benign_mask/000125.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "middle-right",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000126.png",
+    "mask_path": "Benign_mask/000126.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000127.png",
+    "mask_path": "Benign_mask/000127.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000128.png",
+    "mask_path": "Benign_mask/000128.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000129.png",
+    "mask_path": "Benign_mask/000129.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000130.png",
+    "mask_path": "Benign_mask/000130.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "middle-right",
+      "size": "medium",
+      "shape": "round",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "benign"
+    },
+    "image_path": "Benign/000131.png",
+    "mask_path": "Benign_mask/000131.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "irregular",
+      "orientation": "oblique",
+      "boundary": "irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000132.png",
+    "mask_path": "Malignant_mask/000132.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000133.png",
+    "mask_path": "Malignant_mask/000133.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000134.png",
+    "mask_path": "Malignant_mask/000134.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000135.png",
+    "mask_path": "Malignant_mask/000135.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000136.png",
+    "mask_path": "Malignant_mask/000136.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "middle-right",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000137.png",
+    "mask_path": "Malignant_mask/000137.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "medium",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000138.png",
+    "mask_path": "Malignant_mask/000138.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-right",
+      "size": "small",
+      "shape": "round",
+      "orientation": "vertical",
+      "boundary": "smooth",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000139.png",
+    "mask_path": "Malignant_mask/000139.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "vertical",
+      "boundary": "smooth",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000140.png",
+    "mask_path": "Malignant_mask/000140.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000141.png",
+    "mask_path": "Malignant_mask/000141.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "vertical",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000142.png",
+    "mask_path": "Malignant_mask/000142.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000143.png",
+    "mask_path": "Malignant_mask/000143.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000144.png",
+    "mask_path": "Malignant_mask/000144.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-left",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000145.png",
+    "mask_path": "Malignant_mask/000145.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "medium",
+      "shape": "irregular",
+      "orientation": "horizontal",
+      "boundary": "irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000146.png",
+    "mask_path": "Malignant_mask/000146.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "round",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000147.png",
+    "mask_path": "Malignant_mask/000147.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000295.png",
+    "mask_path": "Malignant_mask/000295.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000296.png",
+    "mask_path": "Malignant_mask/000296.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "irregular",
+      "orientation": "oblique",
+      "boundary": "irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000297.png",
+    "mask_path": "Malignant_mask/000297.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000298.png",
+    "mask_path": "Malignant_mask/000298.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "vertical",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000299.png",
+    "mask_path": "Malignant_mask/000299.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000300.png",
+    "mask_path": "Malignant_mask/000300.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000301.png",
+    "mask_path": "Malignant_mask/000301.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "irregular",
+      "orientation": "horizontal",
+      "boundary": "irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000302.png",
+    "mask_path": "Malignant_mask/000302.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-left",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000303.png",
+    "mask_path": "Malignant_mask/000303.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "irregular",
+      "orientation": "horizontal",
+      "boundary": "irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000304.png",
+    "mask_path": "Malignant_mask/000304.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-left",
+      "size": "large",
+      "shape": "oval",
+      "orientation": "oblique",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000305.png",
+    "mask_path": "Malignant_mask/000305.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "irregular",
+      "orientation": "oblique",
+      "boundary": "irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000306.png",
+    "mask_path": "Malignant_mask/000306.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "elongated",
+      "orientation": "horizontal",
+      "boundary": "irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000307.png",
+    "mask_path": "Malignant_mask/000307.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000308.png",
+    "mask_path": "Malignant_mask/000308.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000309.png",
+    "mask_path": "Malignant_mask/000309.png"
+  },
+  {
+    "object": "Tumor",
+    "attributes": {
+      "location": "upper-center",
+      "size": "medium",
+      "shape": "round",
+      "orientation": "horizontal",
+      "boundary": "smooth",
+      "disease_type": "malignant"
+    },
+    "image_path": "Malignant/000310.png",
+    "mask_path": "Malignant_mask/000310.png"
+  }
+]
