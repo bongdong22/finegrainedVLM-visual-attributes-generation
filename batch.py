@@ -81,11 +81,11 @@ def run_folder_extraction(
         else None
     )
 
-    per_image_root = output_root / "per_image"
-    per_image_root.mkdir(parents=True, exist_ok=True)
+    output_root.mkdir(parents=True, exist_ok=True)
 
-    processed_images: list[dict[str, Any]] = []
+    flattened_results: list[dict[str, Any]] = []
     skipped_images: list[dict[str, str]] = []
+    processed_images = 0
     total_objects = 0
 
     for image_path in image_paths:
@@ -117,64 +117,30 @@ def run_folder_extraction(
             size_calibrator=size_calibrator,
             split_components=split_components,
         )
-        total_objects += len(objects)
-
         image_relative = image_path.relative_to(images_root)
-        per_image_output_path = (per_image_root / image_relative).with_suffix(".json")
-        per_image_output_path.parent.mkdir(parents=True, exist_ok=True)
+        normalized_objects = [
+            _normalize_output_record(
+                object_record,
+                image_relative_path=image_relative,
+                masks_root=masks_root,
+            )
+            for object_record in objects
+        ]
 
-        image_record = {
-            "image_path": str(image_path),
-            "image_relative_path": str(image_relative),
-            "num_objects": len(objects),
-            "objects": objects,
-        }
-        _write_json(per_image_output_path, image_record)
+        total_objects += len(normalized_objects)
+        processed_images += 1
+        flattened_results.extend(normalized_objects)
 
-        processed_images.append(
-            {
-                "image_path": str(image_path),
-                "image_relative_path": str(image_relative),
-                "num_objects": len(objects),
-                "result_path": str(per_image_output_path),
-            }
-        )
-
-    dataset_results = {
-        "config": {
-            "images_dir": str(images_root),
-            "masks_dir": str(masks_root),
-            "output_dir": str(output_root),
-            "calibration_masks_dir": str(calibration_root),
-            "image_glob": image_glob,
-            "mask_glob": mask_glob,
-            "object_name": object_name,
-            "object_map_csv": str(object_map_csv) if object_map_csv is not None else None,
-            "infer_object_name": infer_object_name,
-            "split_components": split_components,
-            "fit_split_components": fit_split_components,
-            "fail_on_missing_masks": fail_on_missing_masks,
-        },
-        "size_thresholds": list(size_calibrator.thresholds_),
+    all_results_path = output_root / "all_results.json"
+    _write_json(all_results_path, flattened_results)
+    return {
+        "all_results_path": str(all_results_path),
         "num_images_total": len(image_paths),
-        "num_images_processed": len(processed_images),
+        "num_images_processed": processed_images,
         "num_images_skipped": len(skipped_images),
         "num_objects_total": total_objects,
-        "processed_images": processed_images,
         "skipped_images": skipped_images,
     }
-
-    _write_json(output_root / "summary.json", dataset_results)
-
-    full_results = {
-        **dataset_results,
-        "images": [
-            json.loads(Path(item["result_path"]).read_text(encoding="utf-8"))
-            for item in processed_images
-        ],
-    }
-    _write_json(output_root / "all_results.json", full_results)
-    return dataset_results
 
 
 def build_mask_inputs_for_image(
@@ -382,21 +348,42 @@ def main() -> None:
     print(f"Processed images: {summary['num_images_processed']} / {summary['num_images_total']}")
     print(f"Skipped images: {summary['num_images_skipped']}")
     print(f"Extracted objects: {summary['num_objects_total']}")
-    print(f"Summary file: {Path(args.output_dir) / 'summary.json'}")
-    print(f"All results file: {Path(args.output_dir) / 'all_results.json'}")
-    print(f"Per-image results dir: {Path(args.output_dir) / 'per_image'}")
+    print(f"All results file: {summary['all_results_path']}")
 
 
 def _collect_files(root: Path, pattern: str) -> list[Path]:
     return sorted(path for path in root.glob(pattern) if path.is_file())
 
 
-def _write_json(output_path: Path, payload: dict[str, Any]) -> None:
+def _write_json(output_path: Path, payload: Any) -> None:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+
+
+def _normalize_output_record(
+    record: dict[str, Any],
+    *,
+    image_relative_path: Path,
+    masks_root: Path,
+) -> dict[str, Any]:
+    mask_path_value = record.get("mask_path")
+    if isinstance(mask_path_value, str):
+        try:
+            mask_relative_path = Path(mask_path_value).resolve().relative_to(masks_root.resolve())
+            normalized_mask_path = str(mask_relative_path)
+        except ValueError:
+            normalized_mask_path = mask_path_value
+    else:
+        normalized_mask_path = None
+
+    return {
+        "attributes": dict(record["attributes"]),
+        "image_path": str(image_relative_path),
+        "mask_path": normalized_mask_path,
+    }
 
 
 def _mask_matches_image_stem(image_stem: str, mask_stem: str) -> bool:

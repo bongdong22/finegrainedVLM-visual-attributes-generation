@@ -1,210 +1,324 @@
-# Visual Attributes Generation
+# finegrainedVLM-visual-attributes-generation
 
-입력으로 이미지와 segmentation mask를 받아, 객체의 시각 속성인 `location`, `size`, `shape`, `orientation`, `boundary`를 구조화된 JSON으로 만드는 코드입니다.
+이미지와 segmentation mask를 입력으로 받아, 객체의 시각적 속성을 구조화된 JSON 형태로 추출하는 모듈입니다.
 
-## 사용 방법
+캡션이나 언어 모델 없이 **mask에서 직접 계산 가능한 속성만** 추출합니다.
 
-### 1. 데이터 준비
+지원하는 입력 형태:
 
-아래처럼 이미지 폴더와 마스크 폴더를 준비합니다.
+- 이미지 1장 + 마스크 1개 (객체 1개)
+- 이미지 1장 + 마스크 파일 여러 개 (객체 여러 개)
+- 이미지 1장 + 마스크 1개 안에 disconnected region 여러 개
 
-```text
-/path/to/dataset/
-├── images/
-│   ├── case001.png
-│   ├── case002.png
-│   └── ...
-└── masks/
-    ├── case001.png
-    ├── case002.png
-    └── ...
-```
+추출되는 속성: `location`, `size`, `shape`, `orientation`, `boundary`
 
-- 이미지와 마스크는 공간 크기가 같아야 합니다.
-- 마스크는 binary mask여야 합니다.
-- 객체가 하나인 데이터셋이면 마스크 파일 1개가 객체 1개를 의미합니다.
-- 객체가 여러 개인 경우:
-  - 마스크 파일을 객체별로 여러 개 둘 수 있습니다.
-  - 또는 하나의 마스크 안에 disconnected object 여러 개가 있어도 됩니다. 이 경우 `--split-components`를 사용합니다.
+---
 
-### 2. 경로와 객체 이름 준비
+## 1. 실행 방법
 
-아래 두 값만 자기 데이터에 맞게 바꾸면 됩니다.
+### 기본 실행 (단일 객체)
 
-- `--images-dir`: 이미지 폴더 경로
-- `--masks-dir`: 마스크 폴더 경로
-- `--output-dir`: 결과 저장 폴더 경로
-- `--object-name`: 객체 이름
-
-예를 들어 객체가 전부 종양이면 `Tumor`, 낭종이면 `Cyst`처럼 직접 적습니다.
-
-### 3. 실행
-
-프로젝트 루트에서 아래 명령을 실행합니다.
+모든 mask가 동일한 객체 유형일 때 사용합니다.
 
 ```bash
-cd /home/bongdong2/bongdong2_workspace/fine-grained-vlm
-
-PYTHONPATH=. python -m visual_attributes_generation \
-  --images-dir /path/to/dataset/images \
-  --masks-dir /path/to/dataset/masks \
-  --output-dir /path/to/dataset/output \
-  --object-name Tumor
+python -m finegrainedVLM-visual-attributes-generation \
+  --images-dir /data/my_dataset/images \
+  --masks-dir  /data/my_dataset/masks \
+  --output-dir /data/my_dataset/output \
+  --object-name tumor
 ```
 
-하나의 mask 안에 떨어진 객체가 여러 개 있으면 아래처럼 실행합니다.
+### 여러 객체 (명시적 매핑 CSV 사용)
+
+mask마다 객체 이름이 다를 때 사용합니다.
 
 ```bash
-cd /home/bongdong2/bongdong2_workspace/fine-grained-vlm
+python -m finegrainedVLM-visual-attributes-generation \
+  --images-dir    /data/my_dataset/images \
+  --masks-dir     /data/my_dataset/masks \
+  --output-dir    /data/my_dataset/output \
+  --object-map-csv /data/my_dataset/object_map.csv
+```
 
-PYTHONPATH=. python -m visual_attributes_generation \
-  --images-dir /path/to/dataset/images \
-  --masks-dir /path/to/dataset/masks \
-  --output-dir /path/to/dataset/output \
-  --object-name Tumor \
+### disconnected region 분리
+
+mask 1개 안에 떨어진 객체가 여러 개 있을 때 사용합니다.
+
+```bash
+python -m finegrainedVLM-visual-attributes-generation \
+  --images-dir /data/my_dataset/images \
+  --masks-dir  /data/my_dataset/masks \
+  --output-dir /data/my_dataset/output \
+  --object-name tumor \
   --split-components
 ```
 
-여러 객체를 따로 지정해야 하면 `image_filename,mask_filename,object_name` 형식의 CSV를 만들고 `--object-map-csv`를 사용하면 됩니다.
+### 쉘 스크립트로 실행
+
+```bash
+# 단일 객체
+bash run_visual_attributes_split_components.sh \
+  /data/my_dataset/images \
+  /data/my_dataset/masks \
+  /data/my_dataset/output \
+  tumor
+
+# object_map.csv를 사용하는 경우 (4번째 인자가 파일이면 자동으로 CSV 모드로 실행됨)
+bash run_visual_attributes_split_components.sh \
+  /data/my_dataset/images \
+  /data/my_dataset/masks \
+  /data/my_dataset/output \
+  /data/my_dataset/object_map.csv
+```
+
+### 주요 CLI 옵션
+
+| 옵션 | 설명 |
+|---|---|
+| `--images-dir` | 이미지 폴더 경로 (필수) |
+| `--masks-dir` | 마스크 폴더 경로 (필수) |
+| `--output-dir` | 결과 저장 폴더 (필수) |
+| `--object-name` | 모든 마스크에 동일하게 적용할 객체 이름 |
+| `--object-map-csv` | image-mask-object 매핑 CSV 파일 경로 |
+| `--infer-object-name` | 마스크 파일명에서 객체 이름 자동 추론 (`case001_tumor.png` → `tumor`) |
+| `--split-components` | mask 안의 disconnected region을 각각 별도 객체 인스턴스로 분리 |
+| `--calibration-masks-dir` | size 기준 학습에 사용할 별도 마스크 폴더 (지정 안 하면 `--masks-dir` 사용) |
+| `--image-glob` | 이미지 파일 패턴 (기본: `*.png`) |
+| `--mask-glob` | 마스크 파일 패턴 (기본: `*.png`) |
+| `--fail-on-missing-masks` | 매칭되는 마스크가 없는 이미지에서 즉시 오류 발생 |
+
+---
+
+## 2. 생성되는 파일 형식
+
+실행이 완료되면 `--output-dir` 아래에 파일이 **하나** 생성됩니다.
+
+```
+output/
+└── all_results.json
+```
+
+> `summary.json`이나 `per_image/*.json`은 이 코드가 생성하지 않습니다.
+> 실행 요약(처리 이미지 수 등)은 `run_folder_extraction()`의 **반환값**으로만 전달되며,
+> `python -m ...`으로 실행할 경우 터미널 stdout에 출력됩니다.
+
+### `all_results.json`
+
+객체 단위로 **flat하게** 나열된 리스트입니다. 이미지마다 객체가 1개면 이미지 수 = 리스트 길이, 여러 개면 더 길어집니다.
+
+```json
+[
+  {
+    "attributes": {
+      "location": "upper-center",
+      "size": "small",
+      "shape": "oval",
+      "orientation": "horizontal",
+      "boundary": "mildly-irregular"
+    },
+    "image_path": "000001.png",
+    "mask_path": "000001.png"
+  },
+  {
+    "attributes": {
+      "location": "center",
+      "size": "large",
+      "shape": "irregular",
+      "orientation": "oblique",
+      "boundary": "irregular"
+    },
+    "image_path": "000002.png",
+    "mask_path": "000002.png"
+  },
+  ...
+]
+```
+
+> - `image_path`: `--images-dir` 기준의 **상대 경로**
+> - `mask_path`: `--masks-dir` 기준의 **상대 경로** (절대 경로로 변환 불가하면 절대 경로 그대로)
+> - `measurements`(centroid, area_ratio 등 수치값)는 `all_results.json`에 **포함되지 않습니다**.
+>   수치값은 Python API(`extract_image_attributes_from_paths`)를 직접 사용할 때만 접근 가능합니다.
+
+---
+
+## 3. 입력 데이터 구조
+
+### 디렉토리 구조 예시
+
+```
+/data/my_dataset/
+├── images/
+│   ├── 000001.png
+│   ├── 000002.png
+│   └── ...
+└── masks/
+    ├── 000001.png      ← 이미지와 같은 stem (단일 객체 모드)
+    ├── 000002.png
+    └── ...
+```
+
+마스크와 이미지는 **파일명 stem이 같아야** 자동으로 매칭됩니다.
+예: `000001.png` ↔ `000001.png`, 또는 `000001.png` ↔ `000001_tumor.png`
+
+### `object_map.csv` 형식 (여러 객체)
+
+mask마다 객체 이름이 다를 때 사용합니다.
 
 ```csv
 image_filename,mask_filename,object_name
-case001.png,case001_tumor.png,Tumor
-case001.png,case001_cyst.png,Cyst
-case002.png,case002_mass.png,Mass
+000001.png,000001_tumor.png,tumor
+000001.png,000001_cyst.png,cyst
+000002.png,000002_calcification.png,calcification
 ```
 
-```bash
-PYTHONPATH=. python -m visual_attributes_generation \
-  --images-dir /path/to/dataset/images \
-  --masks-dir /path/to/dataset/masks \
-  --output-dir /path/to/dataset/output \
-  --object-map-csv /path/to/dataset/object_map.csv
+지원하는 컬럼 이름:
+
+| 역할 | 허용하는 컬럼명 |
+|---|---|
+| 이미지 | `image_path`, `image_filename`, `image_name`, `image` |
+| 마스크 | `mask_path`, `mask_filename`, `mask_name`, `mask` |
+| 객체 이름 | `object_name`, `object`, `label`, `class_name` |
+
+---
+
+## 4. 추가 메타데이터 병합하기
+
+생성된 `all_results.json`에 커스텀 메타데이터(예: 병명, 촬영 장비, fold 인덱스 등)를 결합하려면,
+아래 형식으로 별도 CSV를 준비한 뒤 `image_path`를 키로 merge합니다.
+
+### 4-1. 추가 메타데이터 CSV 형식
+
+```csv
+image_path,disease_type,scanner,fold
+000001.png,benign,Siemens,0
+000002.png,malignant,GE,1
 ```
 
-## 결과 예시
+- `image_path` 컬럼은 `all_results.json`의 `image_path` 값과 **정확히 일치**해야 합니다
+  (`--images-dir` 기준 상대 경로, 파일명만인 경우가 많습니다).
 
-기본 결과는 이미지별 JSON과 전체 결과 JSON으로 저장됩니다. 객체 하나의 핵심 결과는 아래처럼 보입니다.
+### 4-2. 병합 스크립트
 
-```json
-{
-  "object": "Tumor",
-  "attributes": {
-    "location": "upper-center",
-    "size": "small",
-    "shape": "oval",
-    "orientation": "horizontal",
-    "boundary": "mildly-irregular"
-  }
-}
+```python
+import json
+import pandas as pd
+
+# all_results.json 로드
+with open("output/all_results.json") as f:
+    records = json.load(f)  # flat list of {attributes, image_path, mask_path}
+
+# DataFrame으로 변환 (attributes를 개별 컬럼으로 펼침)
+rows = []
+for record in records:
+    rows.append({
+        "image_path": record["image_path"],
+        "mask_path": record["mask_path"],
+        **record["attributes"],
+    })
+df = pd.DataFrame(rows)
+
+# 추가 메타데이터 CSV 로드 및 병합
+meta_df = pd.read_csv("my_metadata.csv")
+merged_df = df.merge(meta_df, on="image_path", how="left")
+
+# 저장
+merged_df.to_csv("output/attributes_with_meta.csv", index=False)
+print(merged_df.columns.tolist())
+print(merged_df.head())
 ```
 
-UDIAT처럼 추가 메타데이터를 붙이면 아래처럼 `disease_type`도 함께 넣을 수 있습니다.
+결과 컬럼 예시:
 
-```json
-{
-  "object": "Tumor",
-  "attributes": {
-    "location": "upper-center",
-    "size": "small",
-    "shape": "oval",
-    "orientation": "horizontal",
-    "boundary": "mildly-irregular",
-    "disease_type": "benign"
-  },
-  "image_path": "Benign/000001.png",
-  "mask_path": "Benign_mask/000001.png"
-}
+```
+image_path | mask_path | location | size | shape | orientation | boundary | disease_type | scanner | fold
 ```
 
-## 어떤 코드가 어떤 작업을 하나
+---
 
-### 1. 위치, 모양 기하 정보 계산: `geometry.py`
+## 5. 속성 계산 방식
 
-- mask 정규화
-- centroid 계산
-- area ratio 계산
-- bounding box aspect ratio 계산
-- circularity 계산
-- solidity 계산
-- orientation angle 계산
-- connected component 분리
+### 측정값 계산 (`geometry.py`)
 
-### 2. 크기 구간 학습: `size.py`
+| 측정값 | 계산 방법 |
+|---|---|
+| `centroid` | foreground pixel들의 평균 좌표 |
+| `area_ratio` | `mask 면적 / 이미지 전체 면적` |
+| `aspect_ratio` | bounding box 긴 축 / 짧은 축 |
+| `circularity` | `4π × area / perimeter²` |
+| `solidity` | `area / convex_hull_area` |
+| `orientation_angle` | foreground 좌표에 PCA 적용, 주축 방향 각도 |
 
-- 데이터셋 전체 mask를 보고 size threshold를 학습
-- `small`, `medium`, `large` 기준을 quantile 기반으로 계산
+### 속성 분류 기준
 
-### 3. 속성 라벨 생성: `extractor.py`
+| 속성 | 가능한 값 | 분류 기준 |
+|---|---|---|
+| `location` | `upper-left` / `upper-center` / `upper-right` / `middle-left` / `center` / `middle-right` / `lower-left` / `lower-center` / `lower-right` | centroid를 3×3 grid로 나눔 |
+| `size` | `small` / `medium` / `large` | training set 마스크의 `area_ratio` 33%/66% quantile 기준 |
+| `shape` | `round` / `oval` / `elongated` / `irregular` | `aspect_ratio` + `circularity` 조합 |
+| `orientation` | `horizontal` / `vertical` / `oblique` | `orientation_angle` (기본 임계: 20° / 70°) |
+| `boundary` | `smooth` / `mildly-irregular` / `irregular` | `solidity` + `circularity` 조합 |
 
-- 측정값을 실제 속성 라벨로 변환
-- `location`, `size`, `shape`, `orientation`, `boundary` 생성
-- 객체별 결과 dict 생성
+분류 임계값은 `AttributeRules` dataclass에서 조정할 수 있습니다.
 
-### 4. 폴더 단위 실행: `batch.py`
+---
 
-- 이미지 폴더와 마스크 폴더를 읽어 전체 실행
-- `summary.json`, `all_results.json`, `per_image/*.json` 저장
-- `--object-name`, `--object-map-csv`, `--split-components` 처리
+## 6. 모듈 구조
 
-### 5. 실행 진입점: `__main__.py`
+```
+finegrainedVLM-visual-attributes-generation/
+├── __init__.py                    # 공개 API 모음
+├── __main__.py                    # python -m 진입점 → batch.main()
+├── batch.py                       # 폴더 단위 배치 추출 + CLI 파서
+│                                  #   → all_results.json 저장
+│                                  #   → 실행 요약을 dict로 반환 (파일 저장 X)
+├── extractor.py                   # 단일/다중 객체 속성 추출 핵심 로직
+├── geometry.py                    # mask → 수치 측정값 계산 (scikit-image / cv2 fallback)
+├── size.py                        # SizeQuantileCalibrator (학습 데이터 기반 size threshold)
+├── types.py                       # AttributeRules, ObjectMaskInput, ObjectMeasurements 등
+└── run_visual_attributes_split_components.sh  ← 쉘 스크립트 (split-components 포함)
+```
 
-- `python -m visual_attributes_generation` 실행 시 `batch.py`를 호출
+---
 
-### 6. 설정값 정의: `types.py`
+## 7. Python API 사용 예시
 
-- `AttributeRules`
-- `ObjectMaskInput`
-- `ObjectMeasurements`
-- 크기 threshold 상태 정의
+```python
+from pathlib import Path
+from finegrainedVLM_visual_attributes_generation import (
+    SizeQuantileCalibrator,
+    extract_image_attributes_from_paths,
+    run_folder_extraction,
+)
 
-### 7. 메타데이터 속성 추가: `dataset/build_udiat_metadata_dataset.py`
+# size calibrator 학습
+train_mask_paths = list(Path("/data/train/masks").glob("*.png"))
+size_calibrator = SizeQuantileCalibrator().fit(train_mask_paths)
 
-- 기존 visual attribute 결과에 메타데이터를 추가
-- 예: `disease_type = benign | malignant`
-- 최종적으로 `all_results.json` 형태의 데이터셋 생성
+# 이미지 1장 처리 (measurements 포함한 전체 결과 접근 가능)
+results = extract_image_attributes_from_paths(
+    image_path="/data/images/000001.png",
+    mask_inputs=[
+        ("/data/masks/000001_tumor.png", "tumor"),
+        ("/data/masks/000001_cyst.png", "cyst"),
+    ],
+    size_calibrator=size_calibrator,
+)
+# results: list of dicts with keys: object, instance_index, measurements, attributes, image_path, mask_path
 
-## 작동 방식
-
-### 1. 위치: `geometry.py` + `extractor.py`
-
-- mask foreground의 중심점 `centroid`를 계산합니다.
-- 중심 좌표를 이미지 전체 크기로 나눠 정규화합니다.
-- 이미지를 3x3 grid로 나눠 `upper-left`, `center`, `lower-right` 같은 위치 라벨을 만듭니다.
-
-### 2. 크기: `size.py` + `extractor.py`
-
-- 각 객체의 면적 비율 `mask_area / image_area`를 계산합니다.
-- 학습 데이터셋 전체에서 quantile threshold를 fit합니다.
-- 기본은 tertile 기준이라 `small`, `medium`, `large`로 나눕니다.
-
-### 3. 모양: `geometry.py` + `extractor.py`
-
-- bounding box aspect ratio와 circularity를 계산합니다.
-- 이 값을 기준으로 `round`, `oval`, `elongated`, `irregular`를 분류합니다.
-
-### 4. 방향: `geometry.py` + `extractor.py`
-
-- foreground 좌표에 PCA를 적용해 주축 방향 각도를 구합니다.
-- angle을 이용해 `horizontal`, `vertical`, `oblique`로 변환합니다.
-
-### 5. 경계: `geometry.py` + `extractor.py`
-
-- solidity와 circularity를 계산합니다.
-- 경계가 얼마나 매끈한지 기준으로 `smooth`, `mildly-irregular`, `irregular`를 분류합니다.
-
-### 6. 다중 객체 처리: `extractor.py` + `batch.py`
-
-- 마스크 파일이 여러 개면 객체별로 각각 처리합니다.
-- 하나의 mask 안에 객체가 여러 개면 `--split-components`로 분리해서 처리합니다.
-- 객체 이름이 여러 개면 `--object-map-csv`로 mask와 object를 연결합니다.
-
-### 7. 메타데이터 결합: `dataset/build_udiat_metadata_dataset.py`
-
-- visual attribute 결과를 읽습니다.
-- 데이터셋 폴더 구조나 라벨 정보를 이용해 메타 속성을 붙입니다.
-- 예를 들어 UDIAT에서는 `Benign`, `Malignant` 폴더를 보고 `disease_type`을 추가합니다.
-
-## 한 줄 정리
-
-`visual_attributes_generation`은 이미지와 segmentation mask로부터 객체의 위치, 크기, 모양, 방향, 경계 같은 시각 속성을 자동 추출하고, 필요하면 `disease_type` 같은 메타 속성까지 결합해 JSON 데이터셋으로 만드는 코드입니다.
+# 폴더 전체 처리 → all_results.json 저장, 요약 dict 반환
+summary = run_folder_extraction(
+    images_dir="/data/images",
+    masks_dir="/data/masks",
+    output_dir="/data/output",
+    object_name="tumor",
+)
+print(summary)
+# {
+#   "all_results_path": "/data/output/all_results.json",
+#   "num_images_total": 163,
+#   "num_images_processed": 163,
+#   "num_images_skipped": 0,
+#   "num_objects_total": 163,
+#   "skipped_images": []
+# }
+```
