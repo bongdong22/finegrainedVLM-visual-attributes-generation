@@ -56,7 +56,11 @@ def extract_object_attributes(
         "boundary": boundary_label,
     }
 
-    result: dict[str, Any] = {"attributes": attributes}
+    result: dict[str, Any] = {
+        "object": object_name,
+        "instance_index": instance_index,
+        "attributes": attributes
+    }
     if image_path is not None:
         result["image_path"] = image_path
     if mask_path is not None:

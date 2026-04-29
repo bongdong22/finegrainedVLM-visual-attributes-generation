@@ -109,6 +109,8 @@ output/
 ```json
 [
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -120,6 +122,8 @@ output/
     "mask_path": "000001.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",

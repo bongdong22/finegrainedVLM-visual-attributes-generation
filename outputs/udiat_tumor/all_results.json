@@ -1,5 +1,7 @@
 [
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -11,6 +13,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000001.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "medium",
@@ -22,6 +26,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000002.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -33,6 +39,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000003.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -44,6 +52,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000004.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -55,6 +65,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000005.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -66,6 +78,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000006.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -77,6 +91,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000007.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -88,6 +104,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000008.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "middle-left",
       "size": "small",
@@ -99,6 +117,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000009.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -110,6 +130,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000010.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -121,6 +143,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000011.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -132,6 +156,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000012.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -143,6 +169,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000013.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -154,6 +182,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000014.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "middle-right",
       "size": "small",
@@ -165,6 +195,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000015.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "medium",
@@ -176,6 +208,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000016.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -187,6 +221,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000017.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -198,6 +234,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000018.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -209,6 +247,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000019.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -220,6 +260,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000020.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -231,6 +273,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000021.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -242,6 +286,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000022.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -253,6 +299,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000023.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -264,6 +312,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000024.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -275,6 +325,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000025.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -286,6 +338,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000026.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -297,6 +351,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000027.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -308,6 +364,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000028.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -319,6 +377,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000029.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -330,6 +390,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000030.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -341,6 +403,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000031.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-left",
       "size": "medium",
@@ -352,6 +416,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000032.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -363,6 +429,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000033.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -374,6 +442,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000034.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "small",
@@ -385,6 +455,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000035.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "small",
@@ -396,6 +468,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000036.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -407,6 +481,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000037.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -418,6 +494,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000038.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -429,6 +507,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000039.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-left",
       "size": "medium",
@@ -440,6 +520,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000040.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -451,6 +533,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000041.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -462,6 +546,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000042.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -473,6 +559,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000043.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -484,6 +572,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000044.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -495,6 +585,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000045.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -506,6 +598,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000046.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "medium",
@@ -517,6 +611,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000047.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -528,6 +624,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000048.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -539,6 +637,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000049.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -550,6 +650,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000050.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -561,6 +663,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000051.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -572,6 +676,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000052.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -583,6 +689,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000053.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -594,6 +702,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000054.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -605,6 +715,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000055.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -616,6 +728,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000056.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -627,6 +741,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000057.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -638,6 +754,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000058.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -649,6 +767,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000059.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -660,6 +780,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000060.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -671,6 +793,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000061.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -682,6 +806,8 @@
     "mask_path": "000062.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -693,6 +819,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000063.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "small",
@@ -704,6 +832,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000064.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -715,6 +845,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000065.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "medium",
@@ -726,6 +858,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000066.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -737,6 +871,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000067.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -748,6 +884,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000068.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "medium",
@@ -759,6 +897,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000069.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -770,6 +910,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000070.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -781,6 +923,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000071.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -792,6 +936,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000072.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -803,6 +949,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000073.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -814,6 +962,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000074.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -825,6 +975,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000075.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -836,6 +988,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000076.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "medium",
@@ -847,6 +1001,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000077.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -858,6 +1014,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000078.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -869,6 +1027,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000079.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -880,6 +1040,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000080.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -891,6 +1053,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000081.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -902,6 +1066,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000082.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -913,6 +1079,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000083.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -924,6 +1092,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000084.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -935,6 +1105,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000085.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -946,6 +1118,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000086.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -957,6 +1131,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000087.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -968,6 +1144,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000088.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -979,6 +1157,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000089.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -990,6 +1170,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000090.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -1001,6 +1183,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000091.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-left",
       "size": "small",
@@ -1012,6 +1196,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000092.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -1023,6 +1209,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000093.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -1034,6 +1222,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000094.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "middle-right",
       "size": "large",
@@ -1045,6 +1235,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000095.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -1056,6 +1248,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000096.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -1067,6 +1261,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000097.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -1078,6 +1274,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000098.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -1089,6 +1287,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000099.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-right",
       "size": "small",
@@ -1100,6 +1300,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000100.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "middle-left",
       "size": "small",
@@ -1111,6 +1313,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000101.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "medium",
@@ -1122,6 +1326,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000102.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "small",
@@ -1133,6 +1339,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000103.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -1144,6 +1352,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000104.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -1155,6 +1365,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000105.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -1166,6 +1378,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000106.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "middle-left",
       "size": "medium",
@@ -1177,6 +1391,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000107.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "medium",
@@ -1188,6 +1404,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000108.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "small",
@@ -1199,6 +1417,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000109.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-right",
       "size": "small",
@@ -1210,6 +1430,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000110.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -1221,6 +1443,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000111.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -1232,6 +1456,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000112.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -1243,6 +1469,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000113.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -1254,6 +1482,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000114.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -1265,6 +1495,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000115.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-right",
       "size": "small",
@@ -1276,6 +1508,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000116.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -1287,6 +1521,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000117.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -1298,6 +1534,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000118.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -1309,6 +1547,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000119.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "medium",
@@ -1320,6 +1560,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000120.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-left",
       "size": "medium",
@@ -1331,6 +1573,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000121.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "medium",
@@ -1342,6 +1586,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000122.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -1353,6 +1599,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000123.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "small",
@@ -1364,6 +1612,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000124.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -1375,6 +1625,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000125.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "middle-right",
       "size": "medium",
@@ -1386,6 +1638,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000126.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -1397,6 +1651,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000127.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -1408,6 +1664,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000128.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -1419,6 +1677,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000129.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -1430,6 +1690,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000130.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "middle-right",
       "size": "medium",
@@ -1441,6 +1703,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000131.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -1452,6 +1716,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000132.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -1463,6 +1729,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000133.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -1474,6 +1742,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000134.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -1485,6 +1755,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000135.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -1496,6 +1768,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000136.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "middle-right",
       "size": "medium",
@@ -1507,6 +1781,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000137.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "medium",
@@ -1518,6 +1794,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000138.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-right",
       "size": "small",
@@ -1529,6 +1807,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000139.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "small",
@@ -1540,6 +1820,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000140.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -1551,6 +1833,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000141.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "medium",
@@ -1562,6 +1846,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000142.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "medium",
@@ -1573,6 +1859,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000143.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "medium",
@@ -1584,6 +1872,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000144.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-left",
       "size": "large",
@@ -1595,6 +1885,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000145.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "medium",
@@ -1606,6 +1898,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000146.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -1617,6 +1911,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000147.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -1628,6 +1924,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000295.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -1639,6 +1937,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000296.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -1650,6 +1950,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000297.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "large",
@@ -1661,6 +1963,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000298.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -1672,6 +1976,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000299.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -1683,6 +1989,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000300.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -1694,6 +2002,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000301.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -1705,6 +2015,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000302.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-left",
       "size": "medium",
@@ -1716,6 +2028,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000303.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -1727,6 +2041,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000304.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-left",
       "size": "large",
@@ -1738,6 +2054,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000305.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "center",
       "size": "large",
@@ -1749,6 +2067,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000306.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "small",
@@ -1760,6 +2080,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000307.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -1771,6 +2093,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000308.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",
@@ -1782,6 +2106,8 @@
     "mask_path": "finegrainedVLM-visual-attributes-generation/staging/udiat_tumor/masks/000309.png"
   },
   {
+    "object": "Tumor",
+    "instance_index": 0,
     "attributes": {
       "location": "upper-center",
       "size": "medium",

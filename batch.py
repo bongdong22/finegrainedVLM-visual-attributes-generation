@@ -380,6 +380,8 @@ def _normalize_output_record(
         normalized_mask_path = None
 
     return {
+        "object": record.get("object", ""),
+        "instance_index": record.get("instance_index", 0),
         "attributes": dict(record["attributes"]),
         "image_path": str(image_relative_path),
         "mask_path": normalized_mask_path,
